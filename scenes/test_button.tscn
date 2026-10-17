@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://csvhn4uwrc6f1"]
-
-[node name="Button" type="Button" unique_id=1421760179]
-offset_right = 283.0
-offset_bottom = 41.0
-text = "Play"
