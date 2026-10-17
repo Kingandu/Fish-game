@@ -26,8 +26,9 @@ texture_margin_right = 16.0
 texture_margin_bottom = 16.0
 
 [node name="MarginContainer" type="MarginContainer" unique_id=42678268]
-offset_right = 40.0
+offset_right = 774.0
 offset_bottom = 40.0
+scale = Vector2(1.2, 1.2)
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=980823384]
 layout_mode = 2
