@@ -10,8 +10,15 @@ position = Vector2(575, 324)
 scale = Vector2(5.0614033, 5.0625)
 
 [node name="Button" parent="." unique_id=1421760179 instance=ExtResource("1_uwrxv")]
+<<<<<<< HEAD
 offset_left = 32.0
 offset_top = 560.0
 offset_right = 806.0
 offset_bottom = 624.0
 scale = Vector2(1.4, 1.4)
+=======
+offset_left = 112.0
+offset_top = 504.00003
+offset_right = 886.0
+offset_bottom = 568.0
+>>>>>>> 57a172aef7c112b90a52caa0b8895be430a225ee
