@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://csvhn4uwrc6f1"]
+
+[node name="Node2D" type="Node2D" unique_id=1914389986]
+
+[node name="Button" type="Button" parent="." unique_id=1747727627]
+offset_right = 509.0
+offset_bottom = 62.0
