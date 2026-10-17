@@ -4,5 +4,8 @@
 
 [node name="Game" type="Node2D" unique_id=58754999]
 
-[node name="Node2D" parent="." unique_id=1914389986 instance=ExtResource("1_uwrxv")]
-position = Vector2(328, 256)
+[node name="Button" parent="." unique_id=1421760179 instance=ExtResource("1_uwrxv")]
+offset_left = 440.0
+offset_top = 576.0
+offset_right = 723.0
+offset_bottom = 640.0
