@@ -8,10 +8,10 @@ region = Rect2(473.37396, 429.33746, 128.62604, 129.66254)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j7nkd"]
 texture = SubResource("AtlasTexture_xm8t5")
-texture_margin_left = 43.0
-texture_margin_top = 43.0
-texture_margin_right = 43.0
-texture_margin_bottom = 43.0
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
 
 [node name="MarginContainer" type="MarginContainer" unique_id=42678268]
 offset_right = 40.0
@@ -40,7 +40,8 @@ layout_mode = 2
 text = "???"
 
 [node name="play" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1421760179]
-custom_minimum_size = Vector2(150, 0)
+custom_minimum_size = Vector2(150, 2)
+custom_maximum_size = Vector2(-1, 32)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
 text = "Play"
