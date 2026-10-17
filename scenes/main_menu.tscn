@@ -1,5 +1,18 @@
 [gd_scene format=3 uid="uid://csvhn4uwrc6f1"]
 
+[ext_resource type="Texture2D" uid="uid://crbgw5voknlpf" path="res://assets/button_base.png" id="1_l6cm7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xm8t5"]
+atlas = ExtResource("1_l6cm7")
+region = Rect2(473.37396, 429.33746, 128.62604, 129.66254)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j7nkd"]
+texture = SubResource("AtlasTexture_xm8t5")
+texture_margin_left = 43.0
+texture_margin_top = 43.0
+texture_margin_right = 43.0
+texture_margin_bottom = 43.0
+
 [node name="MarginContainer" type="MarginContainer" unique_id=42678268]
 offset_right = 40.0
 offset_bottom = 40.0
@@ -29,6 +42,7 @@ text = "???"
 [node name="play" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1421760179]
 custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
 text = "Play"
 
 [node name="fishing" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1830570935]
