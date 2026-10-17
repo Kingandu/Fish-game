@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://csvhn4uwrc6f1"]
+
+[node name="MarginContainer" type="MarginContainer" unique_id=42678268]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=980823384]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer" unique_id=456417575]
+layout_mode = 2
+
+[node name="settings" type="Button" parent="CenterContainer/HBoxContainer" unique_id=784709393]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Settings
+"
+
+[node name="units" type="Button" parent="CenterContainer/HBoxContainer" unique_id=108354932]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Units"
+
+[node name="unknown" type="Button" parent="CenterContainer/HBoxContainer" unique_id=517394890]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "???"
+
+[node name="play" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1421760179]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Play"
+
+[node name="fishing" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1830570935]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Fishing
+"
+
+[node name="mastery" type="Button" parent="CenterContainer/HBoxContainer" unique_id=212113975]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Mastery
+"
+
+[node name="store" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1611154350]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Store"

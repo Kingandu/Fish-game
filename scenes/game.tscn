@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cxvmr1jrmrcnv"]
 
-[ext_resource type="PackedScene" uid="uid://csvhn4uwrc6f1" path="res://scenes/test_button.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://csvhn4uwrc6f1" path="res://scenes/main_menu.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://3fjap6l4nn4h" path="res://scenes/background.tscn" id="1_yqjtg"]
 
 [node name="Game" type="Node2D" unique_id=58754999]
@@ -10,7 +10,7 @@ position = Vector2(575, 324)
 scale = Vector2(5.0614033, 5.0625)
 
 [node name="Button" parent="." unique_id=1421760179 instance=ExtResource("1_uwrxv")]
-offset_left = 440.0
+offset_left = 192.0
 offset_top = 576.0
-offset_right = 723.0
+offset_right = 966.0
 offset_bottom = 640.0
