@@ -1,5 +1,32 @@
 [gd_scene format=3 uid="uid://b3fnhxufbpdxm"]
 
-[node name="Node2D" type="Node2D" unique_id=928256648]
+[ext_resource type="Texture2D" uid="uid://c75xdov8bvpp" path="res://assets/fishes.png" id="1_k673f"]
+[ext_resource type="Script" uid="uid://b3p24658kttfr" path="res://scripts/animation_handler.gd" id="2_1jvru"]
+[ext_resource type="Script" uid="uid://oa2w6roklwki" path="res://scripts/unit_handler.gd" id="2_k673f"]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1516977711]
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4q0g"]
+atlas = ExtResource("1_k673f")
+region = Rect2(0, 8, 128, 16)
+
+[node name="Node2D" type="Node2D" unique_id=928256648]
+script = ExtResource("2_k673f")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1806434548]
+scale = Vector2(8, 8)
+texture = SubResource("AtlasTexture_a4q0g")
+hframes = 4
+script = ExtResource("2_1jvru")
+
+[node name="Timer" type="Timer" parent="Sprite2D" unique_id=1641287456]
+wait_time = 0.5
+autostart = true
+
+[node name="Area2D" type="Area2D" parent="." unique_id=970015041]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=969824461]
+
+[node name="Area2D2" type="Area2D" parent="." unique_id=356475974]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2" unique_id=432500189]
+
+[connection signal="timeout" from="Sprite2D/Timer" to="Sprite2D" method="_on_timer_timeout"]
