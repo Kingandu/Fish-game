@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://csvhn4uwrc6f1"]
 
-[ext_resource type="FontFile" uid="uid://dyomu0lfcjupw" path="res://assets/KiwiSoda.ttf" id="1_ekxnf"]
-[ext_resource type="Texture2D" uid="uid://crbgw5voknlpf" path="res://assets/button_base.png" id="1_l6cm7"]
+[ext_resource type="FontFile" uid="uid://dyomu0lfcjupw" path="res://assets/Fonts/KiwiSoda.ttf" id="1_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://crbgw5voknlpf" path="res://assets/Sprites/button_base.png" id="1_l6cm7"]
+[ext_resource type="Theme" uid="uid://j5xprywmpvr6" path="res://assets/Themes/main_menu_button1.tres" id="1_xub87"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xm8t5"]
 atlas = ExtResource("1_l6cm7")
@@ -38,8 +39,9 @@ layout_mode = 2
 
 [node name="settings" type="Button" parent="CenterContainer/HBoxContainer" unique_id=784709393]
 custom_minimum_size = Vector2(100, 0)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
@@ -48,8 +50,9 @@ text = "Settings
 
 [node name="units" type="Button" parent="CenterContainer/HBoxContainer" unique_id=108354932]
 custom_minimum_size = Vector2(100, 0)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
@@ -57,8 +60,9 @@ text = "Units"
 
 [node name="unknown" type="Button" parent="CenterContainer/HBoxContainer" unique_id=517394890]
 custom_minimum_size = Vector2(100, 0)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
@@ -66,8 +70,9 @@ text = "???"
 
 [node name="play" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1421760179]
 custom_minimum_size = Vector2(150, 2)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
@@ -75,8 +80,9 @@ text = "Play"
 
 [node name="fishing" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1830570935]
 custom_minimum_size = Vector2(100, 0)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_qhbao")
@@ -85,8 +91,9 @@ text = "Fishing
 
 [node name="mastery" type="Button" parent="CenterContainer/HBoxContainer" unique_id=212113975]
 custom_minimum_size = Vector2(100, 0)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")
@@ -95,8 +102,9 @@ text = "Mastery
 
 [node name="store" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1611154350]
 custom_minimum_size = Vector2(100, 0)
-custom_maximum_size = Vector2(-1, 32)
+custom_maximum_size = Vector2(-1, 64)
 layout_mode = 2
+theme = ExtResource("1_xub87")
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("1_ekxnf")
 theme_override_styles/normal = SubResource("StyleBoxTexture_j7nkd")

@@ -1,22 +1,22 @@
 [
 	{
-		"id": "fih",
+		"id": 0,
 		"name": "Fih",
 		"hp": 0,
 		"hydration": 0,
 		"damage": 0,
 		"speed": 0,
-		"cost": 0,
+		"cost": 1,
 		"abilities": [{ "type": "", "a": 0.25, "b": 2.0 },{ "type": "", "a": 0.10, "b": 50.0 }]
 	},
 	{
-		"id": "fih",
-		"name": "Fih",
+		"id": 1,
+		"name": "Fih2",
 		"hp": 0,
 		"hydration": 0,
 		"damage": 0,
 		"speed": 0,
-		"cost": 0,
+		"cost": 2,
 		"abilities": [{ "type": "", "a": 0.25, "b": 2.0 },{ "type": "", "a": 0.10, "b": 50.0 }]
 	}
 ]

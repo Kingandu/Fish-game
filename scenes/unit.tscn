@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b3fnhxufbpdxm"]
 
-[ext_resource type="Texture2D" uid="uid://c75xdov8bvpp" path="res://assets/fishes.png" id="1_k673f"]
+[ext_resource type="Texture2D" uid="uid://c75xdov8bvpp" path="res://assets/Sprites/fishes.png" id="1_k673f"]
 [ext_resource type="Script" uid="uid://b3p24658kttfr" path="res://scripts/animation_handler.gd" id="2_1jvru"]
 [ext_resource type="Script" uid="uid://oa2w6roklwki" path="res://scripts/unit_handler.gd" id="2_k673f"]
 

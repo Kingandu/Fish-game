@@ -1,0 +1,57 @@
+[gd_resource type="Theme" format=3 uid="uid://j5xprywmpvr6"]
+
+[ext_resource type="Texture2D" uid="uid://crbgw5voknlpf" path="res://assets/Sprites/button_base.png" id="1_gge3k"]
+[ext_resource type="FontFile" uid="uid://dyomu0lfcjupw" path="res://assets/Fonts/KiwiSoda.ttf" id="2_u5qfk"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_if87r"]
+load_path = "res://.godot/imported/button_base.png-1f8c25352e6e6a48e5a3af9315406d40.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r61mn"]
+atlas = SubResource("CompressedTexture2D_if87r")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_noh0d"]
+texture = SubResource("AtlasTexture_r61mn")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+modulate_color = Color(0.9473782, 0.95338386, 0.5861347, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mjkc3"]
+atlas = ExtResource("1_gge3k")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ijhfk"]
+texture = SubResource("AtlasTexture_mjkc3")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4eogq"]
+load_path = "res://.godot/imported/button_base.png-1f8c25352e6e6a48e5a3af9315406d40.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cwdgo"]
+atlas = SubResource("CompressedTexture2D_4eogq")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tqh2u"]
+texture = SubResource("AtlasTexture_cwdgo")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+modulate_color = Color(0.84947944, 0.84947944, 0.84947944, 0.7647059)
+
+[resource]
+default_font = ExtResource("2_u5qfk")
+Button/styles/hover = SubResource("StyleBoxTexture_noh0d")
+Button/styles/normal = SubResource("StyleBoxTexture_ijhfk")
+Button/styles/pressed = SubResource("StyleBoxTexture_tqh2u")
