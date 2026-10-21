@@ -26,7 +26,7 @@ texture_margin_top = 16.0
 texture_margin_right = 16.0
 texture_margin_bottom = 16.0
 
-[node name="MarginContainer" type="MarginContainer" unique_id=42678268]
+[node name="Main_Menu_Buttons" type="MarginContainer" unique_id=42678268]
 offset_right = 774.0
 offset_bottom = 40.0
 scale = Vector2(1.2, 1.2)

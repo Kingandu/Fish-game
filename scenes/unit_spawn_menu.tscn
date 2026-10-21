@@ -1,18 +1,49 @@
 [gd_scene format=3 uid="uid://ducr075f2la4k"]
 
-[node name="MarginContainer" type="MarginContainer" unique_id=579701658]
-offset_right = 104.0
+[node name="Unit_Spawn_Menu" type="Control" unique_id=804918701]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 182.0
 offset_bottom = 50.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=821371205]
-layout_mode = 2
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=397965945]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_group_ = true
 
-[node name="Button" type="Button" parent="HBoxContainer" unique_id=174109899]
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer" unique_id=821371205]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(0, 280)
+
+[node name="Button" type="Button" parent="CenterContainer/HBoxContainer" unique_id=174109899]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 text = "aa"
 
-[node name="Button2" type="Button" parent="HBoxContainer" unique_id=1032966032]
+[node name="Button2" type="Button" parent="CenterContainer/HBoxContainer" unique_id=928490551]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
-text = "ae"
+text = "aa"
+
+[node name="Button3" type="Button" parent="CenterContainer/HBoxContainer" unique_id=867417488]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+text = "aa"
+
+[node name="Button4" type="Button" parent="CenterContainer/HBoxContainer" unique_id=1131873145]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+text = "aa"
+
+[node name="Button5" type="Button" parent="CenterContainer/HBoxContainer" unique_id=10953323]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+text = "aa"
+
+[node name="Button6" type="Button" parent="CenterContainer/HBoxContainer" unique_id=2102178771]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+text = "aa"
