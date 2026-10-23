@@ -8,6 +8,7 @@ offset_bottom = 50.0
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=397965945]
 layout_mode = 0
+offset_top = 598.0
 offset_right = 1152.0
 offset_bottom = 648.0
 metadata/_edit_group_ = true
@@ -15,7 +16,6 @@ metadata/_edit_group_ = true
 [node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer" unique_id=821371205]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
-offset_transform_enabled = true
 offset_transform_position = Vector2(0, 280)
 
 [node name="Button" type="Button" parent="CenterContainer/HBoxContainer" unique_id=174109899]

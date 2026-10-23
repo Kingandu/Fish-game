@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://unk6u1ueti4p"]
+
+[node name="Menu_Backgrounds" type="Node2D" unique_id=838298335]
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=184450884]
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_group_ = true
+
+[node name="ColorRect" type="ColorRect" parent="CenterContainer" unique_id=1554962455]
+custom_minimum_size = Vector2(1000, 520)
+layout_mode = 2
+color = Color(0.9529412, 0.7764706, 0.3529412, 1)

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bgiiwpuhqmq05"]
+
+[ext_resource type="PackedScene" uid="uid://b3fnhxufbpdxm" path="res://scenes/unit.tscn" id="1_qajva"]
+[ext_resource type="PackedScene" uid="uid://ducr075f2la4k" path="res://scenes/unit_spawn_menu.tscn" id="2_aic3r"]
+
+[node name="combat" type="Node2D" unique_id=137163]
+
+[node name="Unit_Spawn_Menu" parent="." unique_id=804918701 instance=ExtResource("2_aic3r")]
+
+[node name="Node2D" parent="." unique_id=928256648 instance=ExtResource("1_qajva")]
+position = Vector2(126, 488)

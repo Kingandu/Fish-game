@@ -2,6 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://dyomu0lfcjupw" path="res://assets/Fonts/KiwiSoda.ttf" id="1_ekxnf"]
 [ext_resource type="Texture2D" uid="uid://crbgw5voknlpf" path="res://assets/Sprites/button_base.png" id="1_l6cm7"]
+[ext_resource type="Script" uid="uid://cpbkg3eefeg64" path="res://scripts/main_menu_buttons.gd" id="1_v5fn3"]
 [ext_resource type="Theme" uid="uid://j5xprywmpvr6" path="res://assets/Themes/main_menu_button1.tres" id="1_xub87"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xm8t5"]
@@ -30,6 +31,7 @@ texture_margin_bottom = 16.0
 offset_right = 774.0
 offset_bottom = 40.0
 scale = Vector2(1.2, 1.2)
+script = ExtResource("1_v5fn3")
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=980823384]
 layout_mode = 2
