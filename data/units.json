@@ -1,6 +1,6 @@
 [
 	{
-		"id": 0,
+		"id": "fih",
 		"name": "Fih",
 		"hp": 0,
 		"hydration": 0,
@@ -10,7 +10,7 @@
 		"abilities": [{ "type": "", "a": 0.25, "b": 2.0 },{ "type": "", "a": 0.10, "b": 50.0 }]
 	},
 	{
-		"id": 1,
+		"id": "fih2",
 		"name": "Fih2",
 		"hp": 0,
 		"hydration": 0,
