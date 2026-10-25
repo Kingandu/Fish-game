@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://s3bkordjg4uh"]
+
+[ext_resource type="Texture2D" uid="uid://c75xdov8bvpp" path="res://assets/Sprites/fishes.png" id="1_f5uux"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rbct6"]
+atlas = ExtResource("1_f5uux")
+region = Rect2(0, 8, 32, 16)
+
+[node name="UnitsPanel" type="Control" unique_id=237970104]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2145532347]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.15173137, 0.9348937, 0.75430745, 1)
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=419850850]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1547012261]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+
+[node name="TextureButton" type="TextureButton" parent="HBoxContainer" unique_id=416506215]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_rbct6")
+
+[node name="TextureButton2" type="TextureButton" parent="HBoxContainer" unique_id=1583704512]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_rbct6")
+
+[node name="TextureButton3" type="TextureButton" parent="HBoxContainer" unique_id=2135498691]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_rbct6")
+
+[node name="TextureButton4" type="TextureButton" parent="HBoxContainer" unique_id=697365451]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_rbct6")
+
+[node name="TextureButton5" type="TextureButton" parent="HBoxContainer" unique_id=1272033763]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_rbct6")
+
+[node name="TextureButton6" type="TextureButton" parent="HBoxContainer" unique_id=867487732]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_rbct6")
